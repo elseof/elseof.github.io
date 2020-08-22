@@ -1,0 +1,288 @@
+20-08-21 22:18:57.770: E/ModuleLoader(6324): [E/HMSCore/ModuleLoader 6280:1 :99] Instancing module HuaweiIdentity.API failed. java.lang.ClassNotFoundException: com.huawei.hms.identity.MainEntry
+20-08-21 22:18:57.772: I/HwIDProvider(6324): [I//HwIDProvider 6280:1 :122] Enter static
+20-08-21 22:18:57.773: I/HwIDProvider(6324): [I//HwIDProvider 6280:1 :135] Out static
+20-08-21 22:18:57.777: I/HwIDInnerProvider(6324): [I//HwIDInnerProvider 6280:1 :39] Enter static
+20-08-21 22:18:57.779: I/HwIDInnerProvider(6324): [I//HwIDInnerProvider 6280:1 :55] Out static
+20-08-21 22:18:57.818: I/ModuleLoader(6324): [I/HMSCore/ModuleLoader 6280:1 :142] add module DynamicModuleManager ,  com.huawei.hms.dynamic.module.manager.MainEntry
+20-08-21 22:18:57.819: I/ModuleLoader(6324): [I/HMSCore/ModuleLoader 6280:1 :142] add module safetydetect,  com.huawei.hms.safetydetect.MainEntry
+20-08-21 22:18:57.823: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :162] uri is:
+20-08-21 22:18:57.825: I/ModuleLoader(6324): [I/HMSCore/ModuleLoader 6280:1 :142] add module HwAML,  com.huawei.aml.MainEntry
+20-08-21 22:18:57.836: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :164] match result:5
+20-08-21 22:18:57.839: I/ModuleLoader(6324): [I/HMSCore/ModuleLoader 6280:1 :142] add module litedrm ,  com.huawei.hms.litedrm.MainEntry
+20-08-21 22:18:57.869: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :88] load all AppPermission.
+20-08-21 22:18:57.877: I/buh(6324): [I//buh 6280:24437 :381] Context == null
+20-08-21 22:18:57.879: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :516] Enter hasLogin
+20-08-21 22:18:57.936: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :520] Out hasLogin
+20-08-21 22:18:57.976: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :391] hasLogin:true Build.VERSION.SDK_INT:28
+20-08-21 22:18:57.978: I/buh(6324): [I//buh 6280:24437 :381] Context == null
+20-08-21 22:18:57.985: I/HwIDProvider(6324): [I//HwIDProvider 6280:24437 :217] Out query
+20-08-21 22:18:57.988: I/HwID_MainEntry(6324): [I//HwID_MainEntry 6280:1 :28] HwID_MainEntry onCreated
+20-08-21 22:18:57.998: I/HwJOS(6324): [I/HwJOS/HwJOS 6280:1 :42] jos module init.
+20-08-21 22:18:57.999: I/HwIDInnerService(6324): [I//HwIDInnerService 6280:1 :207] registerCallback,type:0
+20-08-21 22:18:58.006: I/CommonUtils(6324): [I//CommonUtils 6280:24448 :68] versionName 3.0.3.300
+20-08-21 22:18:58.020: I/HwIDApplicationContext(6324): [I/HwID_APK_log[3.0.3.300]/HwIDApplicationContext 6280:24448 :227] initProcessName::=com.huawei.hwid.persistent
+20-08-21 22:18:58.040: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24448 :457] isPhoneStillInLockMode false
+20-08-21 22:18:58.043: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24448 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:18:58.048: I/HwIDApplicationContext(6324): [I/HwID_APK_log[3.0.3.300]/HwIDApplicationContext 6280:24448 :127] HwIDApplication oncreate
+20-08-21 22:18:58.058: I/hms_pay(6280): ThreadPoolManager    ThreadPool init!
+20-08-21 22:18:58.092: I/VersionUpdateHelper(6324): [I/HwID_APK_log[3.0.3.300]/VersionUpdateHelper 6280:24448 :38] Enter update
+20-08-21 22:18:58.093: I/LogX(6324): [I/hwsns/LogX 6280:24449 :53] SNS startup, the version is: [VersionCode: 30003300, VersionName: 3.0.3.300]
+20-08-21 22:18:58.094: E/VersionUpdateHelper(6324): [E/HwID_APK_log[3.0.3.300]/VersionUpdateHelper 6280:24448 :49] old v3, current version is 3
+20-08-21 22:18:58.095: I/HWID_FileUtil(6324): [I/HwID_APK_log[3.0.3.300]/HWID_FileUtil 6280:24448 :291] Enter setProperties
+20-08-21 22:18:58.096: I/hms_pay(6280): hms_pay    pay MainEntry onCreated
+20-08-21 22:18:58.143: I/hms_pay(6280): CrashHandler    CrashHandler init
+20-08-21 22:18:58.144: I/hms_pay(6280): hms_pay    pay IAPEntry MainEntry finished 
+20-08-21 22:18:58.156: I/hms_pay(6280): hms_pay    IAP MainEntry onCreated 
+20-08-21 22:18:58.157: I/hms_pay(6280): CacheMgr    register Time Change Receiver, com.huawei.hms.app.CoreApplication@728f9db
+20-08-21 22:18:58.158: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:1 :207] registerCallback,type:0
+20-08-21 22:18:58.159: I/game(6324): [I/HwJOS/game 6280:1 :58] game module init.
+20-08-21 22:18:58.171: I/OpenDevice(6324): [I/opendevice/OpenDevice 6280:1 :32] OpenDevice onCreated.
+20-08-21 22:18:58.207: I/HWID_FileUtil(6324): [I/HwID_APK_log[3.0.3.300]/HWID_FileUtil 6280:24448 :319] Out setProperties
+20-08-21 22:18:58.209: I/VersionUpdateHelper(6324): [I/HwID_APK_log[3.0.3.300]/VersionUpdateHelper 6280:24448 :58] Out update
+20-08-21 22:18:58.212: I/HwIDApplicationContext(6324): [I/HwID_APK_log[3.0.3.300]/HwIDApplicationContext 6280:24448 :142] initInnerBroadcast 
+20-08-21 22:18:58.218: I/PushTokenCase(6324): [I/HwID_APK_log[3.0.3.300]/PushTokenCase 6280:24448 :68] regPushEvent
+20-08-21 22:18:58.219: I/HwIDApplicationContext(6324): [I/HwID_APK_log[3.0.3.300]/HwIDApplicationContext 6280:24448 :168] Start register network change receiver.
+20-08-21 22:18:58.225: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24448 :334] getHwAccount hasAccount Finish
+20-08-21 22:18:58.247: I/EmuiUtil(6324): [I/HwID_APK_log[3.0.3.300]/EmuiUtil 6280:24448 :281] the emui version code is::19
+20-08-21 22:18:58.248: I/EmuiUtil(6324): [I/HwID_APK_log[3.0.3.300]/EmuiUtil 6280:24448 :236] getEmuiType emuiVersionCode=19
+20-08-21 22:18:58.300: I/AppContext(6324): [I/HwLocation/AppContext 6280:1 :48] onCreate
+20-08-21 22:18:58.301: I/MainEntry(6324): [I/HwLocation/MainEntry 6280:1 :43] location module init.
+20-08-21 22:18:58.310: I/LocationManagerImpl(6324): [I/HwLocation/LocationManagerImpl 6280:1 :76] init
+20-08-21 22:18:58.313: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24448 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:18:58.314: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24448 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:18:58.315: I/DynamicModuleMgrEntry(6324): [I/HMSCore/DynamicModuleMgrEntry 6280:1 :42] onCreated.
+20-08-21 22:18:58.330: I/GameNetBroadcastReceiver(6324): [I/HwJOS/GameNetBroadcastReceiver 6280:1 :39] NetBroadcastReceiver is Received
+20-08-21 22:18:58.344: I/DynamicModuleMgrEntry(6324): [I/HMSCore/DynamicModuleMgrEntry 6280:24457 :66] begin install dynamic apk.
+20-08-21 22:18:58.346: I/BaseUtil(6324): [I/HwID_APK_log[3.0.3.300]/BaseUtil 6280:1 :121] enter networkIsAvaiable
+20-08-21 22:18:58.352: I/HwidNetWorkChangeReceiver(6324): [I/HwID_APK_log[3.0.3.300]/HwidNetWorkChangeReceiver 6280:1 :67] The connectivity_action broadcast is received, and the heartbeat is started.
+20-08-21 22:18:58.361: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:24456 :143] bindHwNLPService begin,mConnectCount=0
+20-08-21 22:18:58.365: I/LocationTracker(6324): [I/HwLocation/LocationTracker 6280:24456 :236] checkUninitializedAnalytics not initialized
+20-08-21 22:18:58.373: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24448 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:18:58.375: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :49] hwHmsService == null && connectState=0 && connectCount=1
+20-08-21 22:18:58.376: I/LocationTracker(6324): [I/HwLocation/LocationTracker 6280:24456 :236] checkUninitializedAnalytics not initialized
+20-08-21 22:18:58.377: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24448 :400] getHwAccount  Finish
+20-08-21 22:18:58.385: I/HwIDApplicationContext(6324): [I/HwID_APK_log[3.0.3.300]/HwIDApplicationContext 6280:24448 :178] debug== send broadcast
+20-08-21 22:18:58.392: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24458 :87] GetServiceToken transID:d7b34c5f-ecdd-4dc4-b137-4049a296cf77
+20-08-21 22:18:58.405: I/bvk(6324): [I/HwID_APK_log[3.0.3.300]/bvk 6280:24448 :239] deleteCachedFiles
+20-08-21 22:18:58.409: I/PersistentPreferenceDataHelper(6324): [I/HwID_APK_log[3.0.3.300]/PersistentPreferenceDataHelper 6280:1 :245] getIntFromFile,keyName:heartbeatSupport
+20-08-21 22:18:58.416: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24458 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:18:58.428: I/PersistentPreferenceDataHelper(6324): [I/HwID_APK_log[3.0.3.300]/PersistentPreferenceDataHelper 6280:1 :269] getLongFromFileOnCurProcessor,fileType:4,keyName:heartbeatSupport
+20-08-21 22:18:58.429: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24458 :457] isPhoneStillInLockMode false
+20-08-21 22:18:58.431: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24458 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:18:58.435: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24458 :62] GetServiceToken onRequest, transID:d7b34c5f-ecdd-4dc4-b137-4049a296cf77
+20-08-21 22:18:58.436: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24458 :74] GetServiceToken getAccts Finish, transID:d7b34c5f-ecdd-4dc4-b137-4049a296cf77
+20-08-21 22:18:58.438: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24458 :334] getHwAccount hasAccount Finish
+20-08-21 22:18:58.487: I/PersistentPreferenceDataHelper(6324): [I/HwID_APK_log[3.0.3.300]/PersistentPreferenceDataHelper 6280:1 :256] getLongFromFile,keyName:heartbeatSupport finish.
+20-08-21 22:18:58.492: I/HeartbeatCacheManager(6324): [I/HwID_APK_log[3.0.3.300]/HeartbeatCacheManager 6280:1 :146] GetHeartbeatSupport is 0.
+20-08-21 22:18:58.494: I/HwidNetWorkChangeReceiver(6324): [I/HwID_APK_log[3.0.3.300]/HwidNetWorkChangeReceiver 6280:1 :184] The country or site does not support the heartbeat.
+20-08-21 22:18:58.516: I/OnLoginSuccessBroadcastReceiver(6324): [I/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:1 :186] onReceive here
+20-08-21 22:18:58.528: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24458 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:18:58.529: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24458 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:18:58.544: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:1 :334] getHwAccount hasAccount Finish
+20-08-21 22:18:58.545: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24458 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:18:58.546: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24458 :400] getHwAccount  Finish
+20-08-21 22:18:58.547: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24458 :79] GetServiceToken getAcct Finish, transID:d7b34c5f-ecdd-4dc4-b137-4049a296cf77
+20-08-21 22:18:58.581: I/OnLoginSuccessBroadcastReceiver(6324): [I/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:24463 :260] Enter readInfo2Cache
+20-08-21 22:18:58.588: E/UpdateVersionManager(6324): [E/HMSCore/UpdateVersionManager 6280:24457 :112] current is not wifi.
+20-08-21 22:18:58.589: I/UpdateVersionManager(6324): [I/HMSCore/UpdateVersionManager 6280:24457 :73] condition not Satisfied or other process is runing.
+20-08-21 22:18:58.617: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24458 :114] GetServiceToken  finish. transID:d7b34c5f-ecdd-4dc4-b137-4049a296cf77
+20-08-21 22:18:58.623: I/HsfModuleInstaller(6324): [I/HMSCore/HsfModuleInstaller 6280:24457 :194] registerHsfInstallReceiver
+20-08-21 22:18:58.642: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24458 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:18:58.643: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:1 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:18:58.644: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:1 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:18:58.680: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:1 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:18:58.695: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:1 :400] getHwAccount  Finish
+20-08-21 22:18:58.721: I/AccountInfoPreferences(6324): [I/HwID_APK_log[3.0.3.300]/AccountInfoPreferences 6280:1 :178] saveString2HwAccount_rky, key:UUID
+20-08-21 22:18:58.760: I/AccountInfoPreferences(6324): [I/HwID_APK_log[3.0.3.300]/AccountInfoPreferences 6280:1 :187] saveString2HwAccount_rky commitResult:true
+20-08-21 22:18:58.772: I/AccountInfoPreferences(6324): [I/HwID_APK_log[3.0.3.300]/AccountInfoPreferences 6280:1 :189] saveString2HwAccount_rky, key:UUID finish.
+20-08-21 22:18:58.776: I/OnLoginSuccessBroadcastReceiver(6324): [I/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:24463 :262] Out readInfo2Cache
+20-08-21 22:18:58.786: I/PushPresenter(6324): [I/HwID_APK_log[3.0.3.300]/PushPresenter 6280:1 :143] initSysAccountLoginBroadcast
+20-08-21 22:18:58.798: I/PushPresenter(6324): [I/HwID_APK_log[3.0.3.300]/PushPresenter 6280:24471 :197] executePushTokenCase
+20-08-21 22:18:58.801: I/OnLoginSuccessBroadcastReceiver(6324): [I/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:1 :197] just application stated ,keep st in the old status
+20-08-21 22:18:58.815: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24473 :90] cjt begin | TransID:8ac5d834-b642-4b34-babf-39919f50f3f6
+20-08-21 22:18:58.821: I/PushTokenCase(6324): [I/HwID_APK_log[3.0.3.300]/PushTokenCase 6280:24473 :78] getToken
+20-08-21 22:18:58.828: I/HuaweiPushApiImp(6324): [I/PushLog/HuaweiPushApiImp 6280:24473 :53] get token, pkgName:com.huawei.hwid
+20-08-21 22:18:58.853: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24472 :90] cjr begin | TransID:049bfc94-fcb7-404c-83fd-85824821cea1
+20-08-21 22:18:58.861: I/PackageCopyImpl(6324): [I/HMSCore/PackageCopyImpl 6280:1 :190] onServiceConnected
+20-08-21 22:18:58.870: I/PushTokenCase(6324): [I/HwID_APK_log[3.0.3.300]/PushTokenCase 6280:24473 :84] getPushToken4MyCenter.
+20-08-21 22:18:58.875: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24473 :95] In-App Request, uri: push.gettoken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:18:58.886: I/GetTokenRequest(6324): [I/PushLog/GetTokenRequest 6280:24473 :73] enter get token request:com.huawei.hms.support.api.entity.push.TokenReq{ pkgName: com.huawei.hwid isFirstTime: false scope: null appId: null}, send broadcast to pushagent.
+20-08-21 22:18:58.890: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24473 :94] In-App Response, uri: push.gettoken, statusCode: 0
+20-08-21 22:18:58.960: I/HuaweiPushApiImp(6324): [I/PushLog/HuaweiPushApiImp 6280:24473 :77] get token complete, the return code:0
+20-08-21 22:18:58.961: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24473 :92] cjt end | TransID:8ac5d834-b642-4b34-babf-39919f50f3f6
+20-08-21 22:18:58.967: I/OnLoginSuccessBroadcastReceiver(6324): [I/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:24463 :170] downLoadPic
+20-08-21 22:18:58.968: E/OnLoginSuccessBroadcastReceiver(6324): [E/HwID_APK_log[3.0.3.300]/OnLoginSuccessBroadcastReceiver 6280:24463 :177] downLoadPic url empty
+20-08-21 22:18:58.982: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24476 :90] cjm begin | TransID:00e8dd1e-34d4-46cb-9c25-901a16c76207
+20-08-21 22:18:59.011: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24476 :92] cjm end | TransID:00e8dd1e-34d4-46cb-9c25-901a16c76207
+20-08-21 22:18:59.055: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_scankit version 1030300
+20-08-21 22:18:59.056: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_maps version 30002302
+20-08-21 22:18:59.057: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_quic version 10013300
+20-08-21 22:18:59.077: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_huaweimaps version 30002302
+20-08-21 22:18:59.078: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_dynamicloader version 10009300
+20-08-21 22:18:59.079: I/ModuleCopyUtil(6324): [I/HMSCore/ModuleCopyUtil 6280:24457 :202] deleteOldVersion reserve huawei_module_tomtommaps version 30002302
+20-08-21 22:18:59.093: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :165] match apps : [packagename = com.estrongs.android.pop appid = 100873595][packagename = com.android.gallery3d appid = 100137805][packagename = com.yandex.browser appid = 100526075][packagename = com.huawei.hwdetectrepair appid = 100414855]
+20-08-21 22:18:59.151: I/SerializedObject(6324): [I/HMSCore/SerializedObject 6280:24444 :76] read type class com.huawei.hms.auth.scope.bean.AppScope from disk sucessfully.
+20-08-21 22:18:59.154: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :136] not need to load again.appId = 100873595
+20-08-21 22:18:59.163: I/SerializedObject(6324): [I/HMSCore/SerializedObject 6280:24444 :76] read type class com.huawei.hms.auth.scope.bean.AppScope from disk sucessfully.
+20-08-21 22:18:59.165: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :136] not need to load again.appId = 100137805
+20-08-21 22:18:59.177: I/SerializedObject(6324): [I/HMSCore/SerializedObject 6280:24444 :76] read type class com.huawei.hms.auth.scope.bean.AppScope from disk sucessfully.
+20-08-21 22:18:59.181: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :136] not need to load again.appId = 100526075
+20-08-21 22:18:59.195: I/SerializedObject(6324): [I/HMSCore/SerializedObject 6280:24444 :76] read type class com.huawei.hms.auth.scope.bean.AppScope from disk sucessfully.
+20-08-21 22:18:59.196: I/ScopeUtil(6324): [I/HMSCore/ScopeUtil 6280:24444 :136] not need to load again.appId = 100414855
+20-08-21 22:18:59.991: I/UseCaseHandler(6324): [I/HwID_APK_log[3.0.3.300]/UseCaseHandler 6280:24472 :92] cjr end | TransID:049bfc94-fcb7-404c-83fd-85824821cea1
+20-08-21 22:18:59.992: I/HsfModuleInstaller(6324): [I/HMSCore/HsfModuleInstaller 6280:24457 :186] deleteOld HSF Version
+20-08-21 22:18:59.999: I/PushReceiver(6324): [I/PushLog/PushReceiver 6280:1 :140] push receive broadcast message, Intent:com.huawei.android.push.intent.REGISTRATION pkgName:com.huawei.hwid
+20-08-21 22:19:00.017: I/PushReceiver(6324): [I/PushLog/PushReceiver 6280:24479 :313] receive a push token: com.huawei.hwid
+20-08-21 22:19:00.021: I/PushReceiver(6324): [I/PushLog/PushReceiver 6280:24479 :318] BelongID = 7
+20-08-21 22:19:00.172: I/LocationTracker(6324): [I/HMSCore/LocationTracker 6280:24460 :120] initHiAnalytics begin.
+20-08-21 22:19:00.185: I/HmsPushReceiver(6324): [I/PushLog/HmsPushReceiver 6280:24479 :83] revceive HMS token.
+20-08-21 22:19:00.191: I/push(6324): [I/hwsns/push 6280:24479 :40] receive push token.
+20-08-21 22:19:00.256: I/hms_pay(6484): hms_pay    IAPPushEvent onToken()
+20-08-21 22:19:00.259: I/HWIDPushEvent(6324): [I/HwID_APK_log[3.0.3.300]/HWIDPushEvent 6280:24479 :50] receive push token.
+20-08-21 22:19:00.264: I/UIUtil(6324): [I/HwID_APK_log[3.0.3.300]/UIUtil 6280:24479 :65] Enter sendReceivePushBrd
+20-08-21 22:19:00.276: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24490 :87] GetServiceToken transID:83cf1992-5afc-49bd-a7e0-73732a391c03
+20-08-21 22:19:00.278: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24490 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:00.281: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :457] isPhoneStillInLockMode false
+20-08-21 22:19:00.285: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:00.286: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :62] GetServiceToken onRequest, transID:83cf1992-5afc-49bd-a7e0-73732a391c03
+20-08-21 22:19:00.308: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :74] GetServiceToken getAccts Finish, transID:83cf1992-5afc-49bd-a7e0-73732a391c03
+20-08-21 22:19:00.310: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:00.353: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:00.354: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:00.374: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:00.375: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=1
+20-08-21 22:19:00.376: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=1
+20-08-21 22:19:00.397: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:00.399: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :400] getHwAccount  Finish
+20-08-21 22:19:00.400: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :79] GetServiceToken getAcct Finish, transID:83cf1992-5afc-49bd-a7e0-73732a391c03
+20-08-21 22:19:00.406: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :114] GetServiceToken  finish. transID:83cf1992-5afc-49bd-a7e0-73732a391c03
+20-08-21 22:19:00.407: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24490 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:00.410: I/ejf(6324): [I/hwsns/ejf 6280:24490 :88] use thread to handle received pushToken.
+20-08-21 22:19:00.416: D/HwAccountManager(6324): [D/hwsns/HwAccountManager 6280:24490 :145] getAccountInfoFromHwId getAccountInfo.
+20-08-21 22:19:00.417: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24490 :87] GetServiceToken transID:0e5796fe-9da5-4921-beb8-2b52ee452af5
+20-08-21 22:19:00.419: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24490 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:00.420: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :457] isPhoneStillInLockMode false
+20-08-21 22:19:00.422: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:00.424: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :62] GetServiceToken onRequest, transID:0e5796fe-9da5-4921-beb8-2b52ee452af5
+20-08-21 22:19:00.425: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :74] GetServiceToken getAccts Finish, transID:0e5796fe-9da5-4921-beb8-2b52ee452af5
+20-08-21 22:19:00.438: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:00.478: D/HwAccountManager(6324): [D/hwsns/HwAccountManager 6280:24494 :145] getAccountInfoFromHwId getAccountInfo.
+20-08-21 22:19:00.479: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24494 :87] GetServiceToken transID:37307b9f-14d3-417e-8da4-3c89a8047780
+20-08-21 22:19:00.480: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24494 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:00.482: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24494 :457] isPhoneStillInLockMode false
+20-08-21 22:19:00.483: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24494 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:00.484: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24494 :62] GetServiceToken onRequest, transID:37307b9f-14d3-417e-8da4-3c89a8047780
+20-08-21 22:19:00.486: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24494 :74] GetServiceToken getAccts Finish, transID:37307b9f-14d3-417e-8da4-3c89a8047780
+20-08-21 22:19:00.487: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24494 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:00.496: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:00.497: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:00.521: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:00.523: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :400] getHwAccount  Finish
+20-08-21 22:19:00.525: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :79] GetServiceToken getAcct Finish, transID:0e5796fe-9da5-4921-beb8-2b52ee452af5
+20-08-21 22:19:00.529: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :114] GetServiceToken  finish. transID:0e5796fe-9da5-4921-beb8-2b52ee452af5
+20-08-21 22:19:00.531: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24490 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:00.562: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24494 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:00.563: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24494 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:00.583: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24494 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:00.593: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24494 :400] getHwAccount  Finish
+20-08-21 22:19:00.595: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24494 :79] GetServiceToken getAcct Finish, transID:37307b9f-14d3-417e-8da4-3c89a8047780
+20-08-21 22:19:00.599: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24494 :114] GetServiceToken  finish. transID:37307b9f-14d3-417e-8da4-3c89a8047780
+20-08-21 22:19:00.602: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24494 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:00.645: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24497 :87] GetServiceToken transID:c29fd084-c788-4cae-a17c-2eb2460ade60
+20-08-21 22:19:00.648: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24497 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:00.654: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24497 :457] isPhoneStillInLockMode false
+20-08-21 22:19:00.658: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24497 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:00.662: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24497 :62] GetServiceToken onRequest, transID:c29fd084-c788-4cae-a17c-2eb2460ade60
+20-08-21 22:19:00.666: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24497 :74] GetServiceToken getAccts Finish, transID:c29fd084-c788-4cae-a17c-2eb2460ade60
+20-08-21 22:19:00.674: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24497 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:00.738: I/SNSSQLiteOpenHelper(6324): [I/hwsns/SNSSQLiteOpenHelper 6280:24494 :923] sqlcipher no need migrate database.
+20-08-21 22:19:00.740: I/SNSSQLiteOpenHelper(6324): [I/hwsns/SNSSQLiteOpenHelper 6280:24494 :158] SNSSQLiteOpenHelper getInstance: mInstance = o.erg@b47ff8b
+20-08-21 22:19:00.744: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24497 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:00.746: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24497 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:00.760: I/SQLiteMigrateManager(6324): [I/hwsns/SQLiteMigrateManager 6280:24494 :457] getOrCreateType1Pwd sp has record.
+20-08-21 22:19:00.769: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24497 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:00.770: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24497 :400] getHwAccount  Finish
+20-08-21 22:19:00.782: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24497 :79] GetServiceToken getAcct Finish, transID:c29fd084-c788-4cae-a17c-2eb2460ade60
+20-08-21 22:19:00.791: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24497 :114] GetServiceToken  finish. transID:c29fd084-c788-4cae-a17c-2eb2460ade60
+20-08-21 22:19:00.796: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24497 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:01.293: D/SettingDBHelper(6324): [D/hwsns/SettingDBHelper 6280:24494 :81] updateSetting key:push_token is true
+20-08-21 22:19:01.295: I/ejj(6324): [I/hwsns/ejj 6280:24494 :244] save Push Token isSuccess:true
+20-08-21 22:19:01.320: D/ejj(6324): [D/hwsns/ejj 6280:24490 :621] valid old sns sp key PushToken failed,need to report.
+20-08-21 22:19:01.322: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24490 :87] GetServiceToken transID:cb0e8403-d851-4a37-8010-e6e0dc5b71d0
+20-08-21 22:19:01.324: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24490 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:01.326: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :457] isPhoneStillInLockMode false
+20-08-21 22:19:01.327: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:01.330: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :62] GetServiceToken onRequest, transID:cb0e8403-d851-4a37-8010-e6e0dc5b71d0
+20-08-21 22:19:01.332: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :74] GetServiceToken getAccts Finish, transID:cb0e8403-d851-4a37-8010-e6e0dc5b71d0
+20-08-21 22:19:01.333: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:01.425: W/ekl(6324): [W/hwsns/ekl 6280:24497 :483] isAvailable() get siteInfo success, but siteInfo config sns isAvailable:false
+20-08-21 22:19:01.426: W/SNSContext(6324): [W/hwsns/SNSContext 6280:24497 :119] sns not available.
+20-08-21 22:19:01.442: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:01.444: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:01.453: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:01.454: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :400] getHwAccount  Finish
+20-08-21 22:19:01.456: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :79] GetServiceToken getAcct Finish, transID:cb0e8403-d851-4a37-8010-e6e0dc5b71d0
+20-08-21 22:19:01.457: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :114] GetServiceToken  finish. transID:cb0e8403-d851-4a37-8010-e6e0dc5b71d0
+20-08-21 22:19:01.458: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24490 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:01.459: D/HwAccountManager(6324): [D/hwsns/HwAccountManager 6280:24490 :145] getAccountInfoFromHwId getAccountInfo.
+20-08-21 22:19:01.462: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24490 :87] GetServiceToken transID:e8397238-5bf8-4248-884c-d502fdd17702
+20-08-21 22:19:01.463: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24490 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:01.464: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :457] isPhoneStillInLockMode false
+20-08-21 22:19:01.465: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:01.466: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :62] GetServiceToken onRequest, transID:e8397238-5bf8-4248-884c-d502fdd17702
+20-08-21 22:19:01.467: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :74] GetServiceToken getAccts Finish, transID:e8397238-5bf8-4248-884c-d502fdd17702
+20-08-21 22:19:01.468: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:01.484: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:01.485: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:01.497: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:01.498: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :400] getHwAccount  Finish
+20-08-21 22:19:01.499: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :79] GetServiceToken getAcct Finish, transID:e8397238-5bf8-4248-884c-d502fdd17702
+20-08-21 22:19:01.500: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :114] GetServiceToken  finish. transID:e8397238-5bf8-4248-884c-d502fdd17702
+20-08-21 22:19:01.501: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24490 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:01.502: W/ekl(6324): [W/hwsns/ekl 6280:24490 :483] isAvailable() get siteInfo success, but siteInfo config sns isAvailable:false
+20-08-21 22:19:01.503: E/AccountManager(6324): [E/hwsns/AccountManager 6280:24490 :80] isSnsAvailable service not available
+20-08-21 22:19:01.505: E/ejj(6324): [E/hwsns/ejj 6280:24490 :431] upload token login error.
+20-08-21 22:19:01.541: D/MessageTrace(6324): [D/hwsns/MessageTrace 6280:24503 :172] current BlockTask.Type.init
+20-08-21 22:19:01.542: I/MessageTrace(6324): [I/hwsns/MessageTrace 6280:24503 :217] callWait:0
+20-08-21 22:19:01.554: D/PingPolicy(6324): [D/hwsns/PingPolicy 6280:24490 :77] RTO:10000,RTT:10000,count:1
+20-08-21 22:19:01.622: D/SNSIMCenter(6324): [D/hwsns/SNSIMCenter 6280:24490 :386] Current IMStatus:Logout,isNeedRetry:false,isCheckOnLine:false
+20-08-21 22:19:01.623: I/HwIDInnerService(6324): [I/HwID_APK_log[3.0.3.300]/HwIDInnerService 6280:24490 :87] GetServiceToken transID:25f36b1e-a27d-4aeb-bd4a-ef9d785271af
+20-08-21 22:19:01.625: I/InAppTransport(6324): [I/HMSCore/InAppTransport 6280:24490 :95] In-App Request, uri: hwid.inner.getServiceToken, clientIdentity: {appId: 10132067, hostAppID: 10132067, packageName: com.huawei.hwid, sdkVersion: 0, uid: 0, transactionId: }
+20-08-21 22:19:01.626: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :457] isPhoneStillInLockMode false
+20-08-21 22:19:01.627: E/PropertyUtils(6324): [E/HwID_APK_log[3.0.3.300]/PropertyUtils 6280:24490 :460] Build.VERSION.SDK_INT : 28 isPhoneStillInLockMode false
+20-08-21 22:19:01.628: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :62] GetServiceToken onRequest, transID:25f36b1e-a27d-4aeb-bd4a-ef9d785271af
+20-08-21 22:19:01.630: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :74] GetServiceToken getAccts Finish, transID:25f36b1e-a27d-4aeb-bd4a-ef9d785271af
+20-08-21 22:19:01.631: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :334] getHwAccount hasAccount Finish
+20-08-21 22:19:01.653: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :382] int getHwAccount VerifyFlag:0 is invalid
+20-08-21 22:19:01.656: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :384] getHwAccount getUserData 0 Finish
+20-08-21 22:19:01.664: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :389] getHwAccount getUserData 1 Finish
+20-08-21 22:19:01.666: I/APKAccountManager(6324): [I/HwID_APK_log[3.0.3.300]/APKAccountManager 6280:24490 :400] getHwAccount  Finish
+20-08-21 22:19:01.667: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :79] GetServiceToken getAcct Finish, transID:25f36b1e-a27d-4aeb-bd4a-ef9d785271af
+20-08-21 22:19:01.669: I/GetServiceTokenRequest(6324): [I/HwID_APK_log[3.0.3.300]/GetServiceTokenRequest 6280:24490 :114] GetServiceToken  finish. transID:25f36b1e-a27d-4aeb-bd4a-ef9d785271af
+20-08-21 22:19:01.670: I/InAppResponse(6324): [I/HMSCore/InAppResponse 6280:24490 :94] In-App Response, uri: hwid.inner.getServiceToken, statusCode: 0
+20-08-21 22:19:01.672: W/ekl(6324): [W/hwsns/ekl 6280:24490 :483] isAvailable() get siteInfo success, but siteInfo config sns isAvailable:false
+20-08-21 22:19:01.674: E/SNSIMCenter(6324): [E/hwsns/SNSIMCenter 6280:24490 :438] validLoginCondition() Account is null:false or not china site!
+20-08-21 22:19:02.379: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=2
+20-08-21 22:19:02.422: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:02.423: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=2
+20-08-21 22:19:04.415: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=3
+20-08-21 22:19:04.466: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:04.468: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=3
+20-08-21 22:19:06.455: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=4
+20-08-21 22:19:06.508: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:06.509: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=4
+20-08-21 22:19:08.496: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=5
+20-08-21 22:19:08.558: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:08.564: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=5
+20-08-21 22:19:10.523: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=6
+20-08-21 22:19:10.604: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:10.607: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=6
+20-08-21 22:19:12.550: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=7
+20-08-21 22:19:12.644: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:12.645: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=7
+20-08-21 22:19:14.591: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=8
+20-08-21 22:19:14.696: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:14.699: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=8
+20-08-21 22:19:16.628: I/NLPLocationProviderClient(6324): [I/HwLocation/NLPLocationProviderClient 6280:24456 :60] while circle, hwHmsService is null=true && connectState=0 && connectCount=9
+20-08-21 22:19:16.751: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :186] handleMessage case 1
+20-08-21 22:19:16.754: I/NLPLocationServiceConnection(6324): [I/HwLocation/NLPLocationServiceConnection 6280:1 :143] bindHwNLPService begin,mConnectCount=9
